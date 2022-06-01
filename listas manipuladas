@@ -1,0 +1,14 @@
+agenda_contato = []
+nome_contato = input ("Digite o nome do contato: ")
+agenda_contato.append (nome_contato)
+add_mais = input ("Deseja adicionar mais um contato? (sim/nao): ")
+
+while add_mais == ("sim"):
+    if add_mais == ("sim"):
+        nome_contato = input ("Digite mais um contato: ")
+        agenda_contato.append (nome_contato)
+        add_mais = input ("Deseja adicionar mais um contato? (sim/nao): ")
+    elif add_mais == ('nao'):
+        break
+  
+print (agenda_contato)
